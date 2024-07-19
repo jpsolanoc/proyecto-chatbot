@@ -119,8 +119,8 @@ def enviar_mensajes(texto, number):
             "type": "text",
             "text": {
                "preview_url": False,
-"body": "📢 Mentetes Solutions ofrece soluciones digitales personalizadas para cada empresa o negocio. 🚀 \n\nContamos con: \n- 📦 Gestión de inventario \n- 📇 Gestión de clientes \n- 🧾 Emisión de comprobantes \n- 💰 Gestión Financiera y Detalle de Caja \n- 👥 Gestión de colaboradores o personal \n- 🏭 Gestión de procesos de acuerdo a cada empresa \n\nPara mayor información comunícate a nuestro número de WhatsApp: 📱 +593 97 925 6768 \n\n¡Excelente día! 🌞"
-
+                "body": "📢 Mentetes Solutions ofrece soluciones digitales personalizadas para cada empresa o negocio. 🚀 \n\nContamos con: \n- 📦 Gestión de inventario. \n- 📇 Gestión de Clientes. \n- 🧾 Emisión de comprobantes. \n- 💰 Gestión Financiera y Detalle de Caja. \n- 👥 Gestión de personal y colaboradores. \n- 🏭 Gestión de Procesos Operativos para cada Empresa. \n\nPara mayor información comunícate a nuestro número de WhatsApp: 📱 +593 97 925 6768 \n\n¡Excelente día! 🌞"
+                
             }
         }
     elif "2" in texto:
@@ -131,7 +131,7 @@ def enviar_mensajes(texto, number):
             "type": "text",
             "text": {
               "preview_url": False,
-"body": "📞 Para brindarte una mejor atención, por favor comunícate al siguiente número: 📱 +593 97 925 6768, o a nuestro correo electrónico: 📧 soporte@mentetec.com"
+                "body": "📞 Para brindarte una mejor atención, por favor comunícate al siguiente número: 📱 +593 97 925 6768, o a nuestro correo electrónico: 📧 soporte@mentetec.com"
 
             }
         }

@@ -108,7 +108,7 @@ def enviar_mensajes(texto, number):
             "type": "text",
             "text": {
                 "preview_url": False,
-                "body": "¡Hola! 👋 soy CHIS tu asesor virtual.📍 ¿Necesitas información? Encuéntrala en https://mentetec.com/  ✅ Estas son algunas cosas que puedo responder. 📤La información deberá ser ingresada manualmente: \n1️⃣ - Información de Pagos \n2️⃣ - Soporte \n3️⃣ - Dirección"
+                "body": "Bienvenido! 👋 soy CHIS tu asesor virtual.📍 \n¿Necesitas información? Encuéntrala en https://mentetec.com/ ✅ \nA continuación te presento una lista de opciones. La información deberá ser ingresada manualmente: \n1️⃣ - Servicios \n2️⃣ - Soporte"
             }
         }
     elif "1" in texto:
@@ -119,7 +119,7 @@ def enviar_mensajes(texto, number):
             "type": "text",
             "text": {
                 "preview_url": False,
-                "body": "Prueba 1"
+                "body": "Mentetes Solutions ofrece soluciones digitales personalizadas para cada empresa o negocio.. \nContamos con: \n- Gestión de inventario \n- Gestión de clientes \n- Emisión de comprobantes \n- Gestión Financiera y Detalle de Caja \n- Gestión de colaboradores o personal. \n- Gestión de procesos de acuerdo a cada empresa. \n Para mayor información comunícate a nuestro número de WhatsApp: +593 97 925 6768. \nExcelente día."
             }
         }
     elif "2" in texto:
@@ -130,22 +130,22 @@ def enviar_mensajes(texto, number):
             "type": "text",
             "text": {
                 "preview_url": False,
-                "body": "Prueba 2"
+                "body": "Para brindarte una mejor atemción por favor comunícate al siguiente número: +593 97 925 6768, o a nuestro correo electrónico: soporte@mentetec.com"
             }
         }
-    elif "3" in texto:
-          data = {
-            "messaging_product": "whatsapp",
-            "recipient_type": "individual",
-            "to": number,
-            "type": "location",
-            "location": {
-                "latitude": "-4.018031",
-                "longitude": "-79.211453",
-                "name": "Daniel Alvarez",
-                "address": "Francisco de Miranda",
-            }
-        }
+    # elif "3" in texto:
+    #       data = {
+    #         "messaging_product": "whatsapp",
+    #         "recipient_type": "individual",
+    #         "to": number,
+    #         "type": "location",
+    #         "location": {
+    #             "latitude": "-4.018031",
+    #             "longitude": "-79.211453",
+    #             "name": "Daniel Alvarez",
+    #             "address": "Francisco de Miranda",
+    #         }
+    #     }
     else:
           data = {
             "messaging_product": "whatsapp",
@@ -155,7 +155,7 @@ def enviar_mensajes(texto, number):
             "type": "text",
             "text": {
                 "preview_url": False,
-                "body": "¡Hola! 👋"
+                "body": "Bienvenido! 👋 soy CHIS tu asesor virtual.📍 \n¿Necesitas información? Encuéntrala en https://mentetec.com/ ✅ \nA continuación te presento una lista de opciones. La información deberá ser ingresada manualmente: \n1️⃣ - Información de Pagos \n2️⃣ - Soporte \n3️⃣ - Dirección"
             }
         }
           #convertir a json

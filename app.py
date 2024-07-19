@@ -154,8 +154,8 @@ def enviar_mensajes(texto, number):
             
             "type": "text",
             "text": {
-               "preview_url": False,
-                "body": "Mentetes Solutions ofrece soluciones digitales personalizadas para cada empresa o negocio.. \nContamos con: \n- Gestión de inventario \n- Gestión de clientes \n- Emisión de comprobantes \n- Gestión Financiera y Detalle de Caja \n- Gestión de colaboradores o personal. \n- Gestión de procesos de acuerdo a cada empresa. \n Para mayor información comunícate a nuestro número de WhatsApp: +593 97 925 6768. \nExcelente día."
+                       "preview_url": False,
+                "body": "Bienvenido! 👋 soy CHIS tu asesor virtual.📍 \n¿Necesitas información? Encuéntrala en https://mentetec.com/ ✅ \nA continuación te presento una lista de opciones. La información deberá ser ingresada manualmente: \n1️⃣ - Servicios \n2️⃣ - Soporte"
             }
         }
           #convertir a json
